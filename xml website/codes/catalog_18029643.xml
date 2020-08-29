@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Aayush Dangol -->
+<!--03/24/2020-->
+<?xml-stylesheet type="text/css" href="catalog_18029643.css"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ 		xsi:noNamespaceSchemaLocation="catalog_18029643.xsd">
+	<Shop>
+	<rowgap/>
+	</Shop>
+	<Header>
+	<Logo></Logo>
+	<Name>Garage Motors</Name>
+	</Header>
+	<Cars>
+		 <Car>
+		<civic>
+			<img1></img1>
+			<carmodel></carmodel>
+			<Description>
+				<heading> Honda Civic </heading>
+				<p>
+					Honda's civic is a fourseated sports car which can also be used as a family car. 
+					the car is front wheel drive.its engine pushes 205 ps of maximum power at 5700 rpm.
+					it has 2.0 litre four-cylinder engine equipped with an optional turbo charger.
+					it also comes with 1.5 litre v4 engine with two turbo chargers option variant.
+					6 speed manual transmission or 8 speed automatic shifters are available for both the 
+					engine variants.these vehichles gives 32 miles per gallon mileage.
+			    </p>
+			</Description>
+			</civic>
+			<row1>
+			<spec1>
+			<specs>Specifications</specs>
+			<Brand modelnum="51581">Brand: Honda</Brand>
+			<Type>Type: Sedan</Type>
+			<seatCapacity>Seat Capacity: 4</seatCapacity>
+			<carColor>Color: Black</carColor>
+			<weight>curb weight: 2906 lbs</weight>
+			<dimensions unit="feet">Dimension (L x W x H): 15.28 x 5.9 x 4.7) feet	</dimensions>
+			<driveType>Drive Type: Front-Wheel-Drive</driveType>
+			<displacement>Engine-displacement:1,498cc</displacement>
+			<engineConfiguration>Engine-Type: In-Line 4-Cylinder with turbocharger</engineConfiguration>
+			<boost pressureunit="pound per square inch">boost-pressure: 20.3 psi</boost>
+			</spec1>
+			<spec2>
+			<fuelCapacity>Fuel Capacity: 12.39 gal</fuelCapacity>
+			<fuelEconomy value="miles per gallon">City/Hwy: 48/47 mpg</fuelEconomy>
+			<fuelType>Fuel Type: Petrol</fuelType>
+			<transmission>Transmission: 6-speed manual trransmission</transmission>
+			<suspension>Suspension: adaptive suspension system</suspension>
+			<brakeType breakalloy="metal">Brake Type: 4-Wheel Disc</brakeType>
+			<antiLockBraking>Anti-Lock-Braking System: 4-Wheelabs with collission detection</antiLockBraking>			
+			<WheelSize measurement="inch"> Wheel Size (inches):18inch in Matte Black Alloy</WheelSize>
+			<carPrice currency="dollars">Starting Price: $25,200</carPrice>
+			<quantity>In stock: 5</quantity>
+			</spec2>
+			<img12></img12>
+			</row1> 
+			<row2>
+			<wrap13>
+			<img13></img13>
+			</wrap13>
+			<wrap14>
+			<img14></img14>
+			</wrap14>
+			</row2>
+			<img15></img15>
+		</Car>
+		<Car>
+		<civic>
+		<img2></img2>
+			<carmodel></carmodel>
+			<Description>
+				<heading> Corvette </heading>
+				<p>
+					The Chevrolet Corvette, colloquially known as the Vette,
+					it is a two-door, two-passenger sports car manufactured and marketed by Chevrolet across more than 60 years of production and eight design generations.From 1953 to 2019, it was front-engined, and since 2020, it is mid-engined. With its generations noted sequentially from C1 to C8, the Corvette serves as Chevrolet's halo vehicle and is widely noted for its performance and distinctive plastic—either fiberglass or composite—bodywork.
+				</p>
+			</Description>
+			</civic>
+			<row1>
+			<spec1>
+			<specs>Specifications</specs>
+			<Brand modelnum="5981">Brand: chevrolet</Brand>
+			<Type>Type: coupe</Type>
+			<seatCapacity>Seat Capacity: 2</seatCapacity>
+			<carColor>Color: white</carColor>
+			<weight>curb weight: 3,336 lbs</weight>
+			<dimensions unit="feet">Dimension (L x W x H): 15.28 x 5.9 x 4.7) feet	</dimensions>
+			<driveType>Drive Type: Front-Wheel-Drive</driveType>
+			<displacement>Engine-displacement:6200cc</displacement>
+			<engineConfiguration>Engine-Type: In-Line 8-Cylinder</engineConfiguration>
+			<boost pressureunit="pound per square inch">boost-pressure: 29.3 psi</boost>
+			</spec1>
+			<spec2>
+			<fuelCapacity>Fuel Capacity: 18.5 gal</fuelCapacity>
+			<fuelEconomy value="miles per gallon">City/Hwy: 48/47 mpg</fuelEconomy>
+			<fuelType>Fuel Type: diseal</fuelType>
+			<transmission>Transmission: 8-speed dual-clutch trransmission</transmission>
+			<suspension>Suspension: adaptive suspension system</suspension>
+			<brakeType breakalloy="metal">Brake Type: 4-Wheel Disc</brakeType>
+			<antiLockBraking>Anti-Lock-Braking : 4-Wheel abs with collission detection and traction control</antiLockBraking>			
+			<WheelSize measurement="inch"> Wheel Size (inches):18inch in Matte Black Alloy</WheelSize>
+			<carPrice currency="dollars">Starting Price: $260,999</carPrice>
+			<quantity>In stock: 2</quantity>
+			</spec2>
+			<img22></img22>
+			</row1>
+			<row2>
+			<wrap13>
+			<img23></img23>
+			</wrap13>
+			<wrap14>
+			<img24></img24> 
+			</wrap14>
+			</row2>
+			<img25></img25>	
+		</Car>
+		<Car>
+		<civic>
+		<img3></img3>
+			<carmodel></carmodel>
+			<Description>
+				<heading> Koenigsegg Agera R </heading>
+				<p>
+					It can accelerate from 0–100 km/h (0–62 mph) in 2.8 seconds and attain a theoretical top speed of 439 km/h (273 mph). The Agera R has a drag coefficient of Cd=0.37, or Cd=0.33 at high speed due to its adaptive rear wing, while producing 300 kg (660 lb) of downforce at 250 km/h (155 mph).
+				</p>
+			</Description>
+			</civic>
+			
+			<row1>
+			<spec1>
+			<specs>Specifications</specs>
+			<Brand modelnum="2051">Brand: koenigsegg</Brand>
+			<Type>Type: coupe</Type>
+			<seatCapacity>Seat Capacity: 2</seatCapacity>
+			<carColor>Color: Black</carColor>
+			<weight>curb weight: 2086lbs</weight>
+			<dimensions unit="feet">Dimension (L x W x H): 16.28 x 78.9 x 44.7) feet</dimensions>
+			<driveType>Drive Type: Rear-Wheel-Drive</driveType>
+			<displacement>Engine-displacement:5,000cc</displacement>
+			<engineConfiguration>Engine-Type: V8,4 valves per cylinder</engineConfiguration>
+			<boost pressureunit="pound per square inch">boost-pressure: 55.3 psi</boost>
+			</spec1>
+			<spec2>
+			<fuelCapacity>Fuel Capacity: 12.39 gal</fuelCapacity>
+			<fuelEconomy  value="miles per gallon">City/Hwy: 48/47 mpg</fuelEconomy>
+			<fuelType>Fuel Type: Petrol</fuelType>
+			<transmission>Transmission: 7-speed dual clutch trransmission</transmission>
+			<suspension>Suspension: adaptive suspension system</suspension>
+			<brakeType breakalloy="metal">Brake Type: 4-Wheel Disc</brakeType>
+			<antiLockBraking>Anti-Lock-Braking System: 4-Wheelabs with collission detection</antiLockBraking>			
+			<WheelSize measurement="inch"> Wheel Size (inches):18inch in Matte Black Alloy</WheelSize>
+			<carPrice currency="dollars">Starting Price: $25,200</carPrice>
+			<quantity>In stock:8</quantity>
+			</spec2>
+			<img32></img32>
+			</row1>
+			<row2>
+			<wrap13>
+			<img33></img33>
+			</wrap13>
+			<wrap14>
+			<img34></img34>
+			</wrap14>
+			</row2>
+			<img35></img35>
+			<Price></Price>
+		</Car>
+		<Car>
+		<civic>
+		<img4></img4>
+			<carmodel></carmodel>
+			<Description>
+				<heading> Ford Mustang </heading>
+				<p>
+					Six available high-powered engines means that every 2020 Mustang comes with performance in its DNA. And with nine unique trims, you’ve got options, from the fun and energetic GT Convertible to the 2020 Shelby GT500® , host to the most power-dense supercharged V8 production engine in the world.
+				</p>
+			</Description>
+			</civic>
+			<row1>
+			<spec1>
+			<specs>Specifications</specs>
+			<Brand modelnum="90181">Brand: Ford</Brand>
+			<Type>Type: Sedan</Type>
+			<seatCapacity>Seat Capacity: 2</seatCapacity>
+			<carColor>Color: blue</carColor>
+			<weight>curb weight: 2906 lbs</weight>
+			<dimensions unit="feet">Dimension (L x W x H): 15.28 x 5.9 x 4.7) feet	</dimensions>
+			<driveType>Drive Type: Front-Wheel-Drive</driveType>
+			<displacement>Engine-displacement:1,498cc</displacement>
+			<engineConfiguration>Engine-Type: In-Line 4-Cylinder with turbocharger</engineConfiguration>
+			<boost pressureunit="pound per square inch">boost-pressure: 20.3 psi</boost>
+			</spec1>
+			<spec2>
+			<fuelCapacity>Fuel Capacity: 12.39 gal</fuelCapacity>
+			<fuelEconomy value="miles per gallon">City/Hwy: 48/47 mpg</fuelEconomy>
+			<fuelType>Fuel Type: Petrol</fuelType>
+			<transmission>Transmission: 6-speed manual trransmission</transmission>
+			<suspension>Suspension: adaptive suspension system</suspension>
+			<brakeType breakalloy="metal">Brake Type: 4-Wheel Disc</brakeType>
+			<antiLockBraking>Anti-Lock-Braking System: 4-Wheelabs with collission detection</antiLockBraking>			
+			<WheelSize measurement="inch"> Wheel Size (inches):18inch in Matte Black Alloy</WheelSize>
+			<carPrice currency="dollars">Starting Price: $25,200</carPrice>
+			<quantity>In stock: 5</quantity>
+			</spec2>
+			<img42></img42>
+			</row1>
+			
+			<row2>
+			<wrap13>
+			<img43></img43>
+			</wrap13>
+			<wrap14>
+			<img44></img44>
+			</wrap14>
+			</row2>
+		</Car>
+		<Car>
+		<civic>
+		<img5></img5>
+			<carmodel></carmodel>
+			<Description>
+				<heading> Lamborghini Avendator </heading>
+				<p>
+					The jewel in the crown is the car's V12 engine, hand-built in Sant'Agata Bolognese, naturally balanced and longitudinally mounted in a central position.  The excellent acceleration capabilities at any engine speed, the lightning-fast reactivity, and the breathtaking roar of the Aventador demonstrate the incredible power of its engine, the true beating heart of the car which is capable of taking you somewhere anything is possible: once you get there, you'll never want to go back. The feeling you get when you exceed all commonly accepted limits is simply indescribable. 
+				</p>
+			</Description>
+			</civic>
+			<row1>
+			<spec1>
+			<specs>Specifications</specs>
+			<Brand modelnum="5951">Brand: lamborghini</Brand>
+			<Type>Type: Sedan</Type>
+			<seatCapacity>Seat Capacity: 2</seatCapacity>
+			<carColor>Color: white</carColor>
+			<weight>curb weight: 2906 lbs</weight>
+			<dimensions unit="feet">Dimension (L x W x H): 15.28 x 5.9 x 4.7) feet	</dimensions>
+			<driveType>Drive Type: Front-Wheel-Drive</driveType>
+			<displacement>Engine-displacement:1,498cc</displacement>
+			<engineConfiguration>Engine-Type: In-Line 4-Cylinder with turbocharger</engineConfiguration>
+			<boost pressureunit="pound per square inch">boost-pressure: 20.3 psi</boost>
+			</spec1>
+			<spec2>
+			<fuelCapacity>Fuel Capacity: 12.39 gal</fuelCapacity>
+			<fuelEconomy value="miles per gallon">City/Hwy: 48/47 mpg</fuelEconomy>
+			<fuelType>Fuel Type: Petrol</fuelType>
+			<transmission>Transmission: 6-speed manual trransmission</transmission>
+			<suspension>Suspension: adaptive suspension system</suspension>
+			<brakeType  breakalloy="metal">Brake Type: 4-Wheel Disc</brakeType>
+			<antiLockBraking>Anti-Lock-Braking System: 4-Wheelabs with collission detection</antiLockBraking>			
+			<WheelSize measurement="inch"> Wheel Size (inches):18inch in Matte Black Alloy</WheelSize>
+			<carPrice currency="dollars">Starting Price: $25,200</carPrice>
+			<quantity>In stock: 5</quantity>
+			</spec2>
+			<img52></img52>
+			</row1>
+			<row2>
+			<wrap13>
+			<img53></img53>
+			</wrap13>
+			<wrap14>
+			<img54></img54>
+			</wrap14>
+			</row2>
+
+			</Car>
+		<Car>
+			<civic>
+			<img6></img6>
+			<carmodel></carmodel>
+			<Description>
+				<heading> Buggati chiron </heading>
+				<p>
+				The CHIRON is the fastest, most powerful, and exclusive production super sports car in BUGATTI’s history. Its sophisticated design, innovative technology, and iconic, performance-oriented form make it a unique masterpiece of art, form and technique, that pushes boundaries beyond imagination.
+				</p>
+			</Description>
+			</civic>
+			<row1>
+			<spec1>
+			<specs>Specifications</specs>
+			<Brand modelnum="01201">Brand: Buggati </Brand>
+			<Type>Type: Sedan</Type>
+			<seatCapacity>Seat Capacity: 2</seatCapacity>
+			<carColor>Color: white</carColor>
+			<weight>curb weight: 2906 lbs</weight>
+			<dimensions unit="feet">Dimension (L x W x H): 15.28 x 5.9 x 4.7) feet	</dimensions>
+			<driveType>Drive Type: Front-Wheel-Drive</driveType>
+			<displacement>Engine-displacement:1,498cc</displacement>
+			<engineConfiguration>Engine-Type: In-Line 4-Cylinder with turbocharger</engineConfiguration>
+			<boost pressureunit="pound per square inch">boost-pressure: 20.3 psi</boost>
+			</spec1>
+			<spec2>
+			<fuelCapacity>Fuel Capacity: 12.39 gal</fuelCapacity>
+			<fuelEconomy value="miles per gallon">City/Hwy: 48/47 mpg</fuelEconomy>
+			<fuelType>Fuel Type: Petrol</fuelType>
+			<transmission>Transmission: 6-speed manual trransmission</transmission>
+			<suspension>Suspension: adaptive suspension system</suspension>
+			<brakeType breakalloy="metal">Brake Type: 4-Wheel Disc</brakeType>
+			<antiLockBraking>Anti-Lock-Braking System: 4-Wheelabs with collission detection</antiLockBraking>			
+			<WheelSize measurement="inch"> Wheel Size (inches):18inch in Matte Black Alloy</WheelSize>
+			<carPrice currency="dollars">Starting Price: $25,200</carPrice>
+			<quantity>In stock: 5</quantity>
+			</spec2>
+			<img62></img62>
+			</row1>
+			<row2>
+			<wrap13>
+			<img63></img63>
+			</wrap13>
+			<wrap14>
+			<img64></img64>
+			</wrap14>
+			</row2>
+		</Car>
+		<Car>
+		<civic>
+		<img7></img7>
+			<carmodel></carmodel>
+			<Description>
+				<heading> Lamborghini Urus</heading>
+				<p>
+					The soul of a super sports car and the functionality of an SUV: the Lamborghini Urus is the first Super Sport Utility Vehicle in the world. ... With extreme proportions, cutting-edge design, extraordinary driving dynamics and heart-pounding performance, Urus is pure Lamborghini.
+				</p>
+			</Description>
+			</civic>
+			<row1>
+			<spec1>
+			<specs>Specifications</specs>
+			<Brand modelnum="993581">Brand: Lamborghini</Brand>
+			<Type>Type: SUV</Type>
+			<seatCapacity>Seat Capacity: 4</seatCapacity>
+			<carColor>Color: white</carColor>
+			<weight>curb weight: 2906 lbs</weight>
+			<dimensions unit="feet">Dimension (L x W x H): 19.28 x 11 x 4.7) feet	</dimensions>
+			<driveType>Drive Type: swtichable all-Wheel-Drive</driveType>
+			<displacement>Engine-displacement:1,498cc</displacement>
+			<engineConfiguration>Engine-Type: V-8-Cylinder with turbocharger</engineConfiguration>
+			<boost pressureunit="pound per square inch">boost-pressure: 46.3 psi</boost>
+			</spec1>
+			<spec2>
+			<fuelCapacity>Fuel Capacity: 19.39 gal</fuelCapacity>
+			<fuelEconomy value="miles per gallon">City/Hwy: 48/47 mpg</fuelEconomy>
+			<fuelType>Fuel Type: Petrol</fuelType>
+			<transmission>Transmission: 8-speed manual trransmission</transmission>
+			<suspension>Suspension: adaptive suspension system</suspension>
+			<brakeType>Brake Type: 4-Wheel Disc</brakeType>
+			<antiLockBraking>Anti-Lock-Braking System: 4-Wheelabs with collission detection</antiLockBraking>			
+			<WheelSize measurement="inch"> Wheel Size (inches):18inch in Matte Black Alloy</WheelSize>
+			<carPrice currency="dollars">Starting Price: $45,200</carPrice>
+			<quantity>In stock: 4</quantity>
+			</spec2>
+			<img72></img72>
+			</row1>
+
+			<row2>
+			<wrap13>
+			<img73></img73>
+			</wrap13>
+			<wrap14>
+			<img74></img74>
+			</wrap14>
+			</row2>
+
+		</Car>
+	</Cars>
+<Footer>
+		<Logo></Logo>
+		<container>
+		<Location>Address: Naxal</Location>
+		<Number>Phone Number: 0142424242</Number>
+		<Website>Website: www.garagemotors.com</Website>
+		</container>
+		<Follow></Follow>
+</Footer>
+</Vehicle>

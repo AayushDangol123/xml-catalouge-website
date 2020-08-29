@@ -1,0 +1,671 @@
+@font-face{
+	font-family: Roboto;
+	src: url(../Roboto/Roboto-Bold.ttf);
+}
+Vehicle{
+	overflow-x: hidden;
+}
+
+Shop{
+	display:grid;
+	grid-auto-rows: 100vh;
+	background-image:url(../images/background.jpg);
+	background-size: cover;
+	background-repeat:no-repeat;
+	justify-items: end;
+	padding-right:2%;
+	padding-top:2%;
+}
+
+Header{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	position:fixed;
+	height:10vh;
+	top:0;
+	left:0;
+	background-color:rgb(27, 27, 27);
+	font-family:Arial;
+	width:calc(100%);
+	z-index:1;
+}
+
+Logos{
+	display:block;
+	float: left;
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+	z-index:1;
+}
+
+Name{
+	float:right;
+	display:grid;
+	justify-items: end;
+	padding-right:2rem;
+	padding-top:2vh;
+	font-size:2em;
+	font-family:"Arial";
+	color:white;
+}
+
+Cars{
+	display:grid;
+	grid-auto-rows: minmax(100vh,auto);
+	row-gap: 2vh;
+	padding-top:10vh;
+}
+
+civic{
+	display:grid;
+	grid-template-columns: 5fr 2fr 2fr;
+	grid-auto-rows: 80vh;
+	
+	
+}
+
+img1{
+	display:block;
+	background-image: url(../images/civic1.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	transform-origin: center center;
+	width: calc(100% + 25.85rem);
+	transform: translateX(-20.925rem);
+	left: -22px;
+	background-position: 50%;
+	border: 1px solid rgb(255, 255, 255);
+	
+}
+
+carmodel{
+	background-color: rgb(255, 255, 255);
+	transform: translateX(-8rem) skew(-29.60deg);
+	width:calc(100% + 20rem);
+
+}
+
+Description{
+	display:grid;
+	grid-template-rows: 0.1fr 1fr;
+	color:rgb(0, 0, 0);
+	z-index:1;
+	padding-top:14vh;
+	transform:translateX(-8rem);
+	font-family:Roboto;
+	font-size:20px;
+	word-spacing: 2px;
+	text-align: justify;
+} 
+
+heading{
+	font-size:2em;
+	
+}
+
+p{
+	font-size: 1em;
+	margin-top:2vh;
+}
+
+row1{
+	display:grid;
+	grid-auto-rows:80vh;
+	grid-template-columns: 2.5fr 2.5fr 1fr;
+	font-family:Arial;
+
+}
+
+img12{
+	position:relative;
+	background-image:url(../images/civic/taillight.jpg);
+	width:770px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	clip-path: polygon(60% 0, 100% 0, 100% 100%, 5% 100%);
+}
+spec1{
+display:grid;
+font-size:1em;
+padding-left:3em;
+padding-top:11vh;
+
+
+}
+
+spec2{
+	display:grid;
+	font-size:1em;
+	padding-top:11vh;
+	padding-left:4rem;	
+}
+
+specs{
+	font-size:2em;
+}
+
+Brand, Type, seatCapacity, antiLockBraking, WheelSize, 
+dimensions, driveType, displacement, engineConfiguration, 
+boost, fuelCapacity,gasMileage, fuelEconomy, transmission, 
+fuelType,suspension, brakeType, carColor, weight, carPrice, quantity{
+	display: list-item; 
+	list-style-type: disc;
+	border-bottom:1px solid rgb(0, 0, 0);
+	padding-top:2%;	 
+}
+
+row2{
+	display:grid;
+	grid-auto-rows: 100vh;
+	grid-template-columns:1fr 1fr;
+	margin-top:2vh;
+	border-bottom: 1px solid;
+}
+
+wrap13{
+	display:relative;
+	transform:skewX(-30deg) translateX(-1rem);
+	overflow:hidden;
+	height: calc(100% - 20vh);
+}
+
+img13{	
+	display:block;
+	background-image: url(../images/civic/interior.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:calc(100% + 20rem);
+	transform:skewX(30deg);
+	object-fit: cover;
+	background-position: top;
+	height:100%;
+	margin-top:10%;
+
+}
+
+wrap14{
+	display:relative;
+	transform: skewX(-30deg) translateX(2rem);
+	overflow:hidden;
+	height:calc(100% - 30vh);
+}
+
+img14{
+	display:block;
+	background-image:url(../images/civic/action.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	object-fit: cover;
+	margin-left:-10em;
+	height:100%;
+	transform: skewX(30deg);
+	width:calc(100% +20rem);	
+}
+Footer{
+	background-color:rgb(22, 22, 22);
+	left:0;
+	bottom:0;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	color:white;
+	height:calc(100% + 2vh);
+	grid-auto-rows:15vh;
+	margin-bottom:2vh;
+	transform:translateY(-2vh);
+}
+
+container{
+	display:grid;
+	justify-items: center;
+	align-items: center;
+	font-family:Roboto;
+	font-size: 1em;
+	font-weight:500;	
+}
+
+Logo{
+	background-image:url(../images/logo.png);
+	float: left;
+	background-repeat: no-repeat;
+	background-size:contain;
+	
+	
+}
+
+Follow{
+	display:grid;
+	margin-left:8em;
+	background-image:url(../images/follow.PNG);
+	background-repeat: no-repeat;
+	background-size:contain;
+	
+	
+}
+
+Follow:hover{
+	cursor:pointer;
+}
+
+
+img2{
+	display:block;
+	background-image: url(../images/corvette/corvette.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	transform-origin: center center;
+	width: calc(100% + 25.85rem);
+	transform: translateX(-20.925rem);
+	left: -22px;
+	background-position: 50%;
+	border: 1px solid white;
+	
+}
+
+img3{
+	display:block;
+	background-image: url(../images/agera/agera.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	transform-origin: center center;
+	width: calc(100% + 25.85rem);
+	transform: translateX(-20.925rem);
+	left: -22px;
+	background-position: 50%;
+	border: 1px solid white;
+	
+}
+
+img4{
+	display:block;
+	background-image: url(../images/mustang/must.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	transform-origin: center center;
+	width: calc(100% + 25.85rem);
+	transform: translateX(-20.925rem);
+	left: -22px;
+	background-position: 50%;
+	border: 1px solid white;
+}
+
+img7{
+	display:block;
+	background-image: url(../images/urus/urus.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	transform-origin: center center;
+	width: calc(100% + 25.85rem);
+	transform: translateX(-20.925rem);
+	left: -22px;
+	background-position: 50%;
+	border: 1px solid white;
+	
+}
+
+img6{
+	display:block;
+	background-image: url(../images/chiron/chiron.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	transform-origin: center center;
+	width: calc(100% + 25.85rem);
+	transform: translateX(-20.925rem);
+	left: -22px;
+	background-position: 50%;
+	border: 1px solid white;
+	
+}
+
+img5{
+	display:block;
+	background-image: url(../images/avendator/avandetor.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	transform-origin: center center;
+	width: calc(100% + 25.85rem);
+	transform: translateX(-20.925rem);
+	left: -22px;
+	background-position: 50%;
+	border: 1px solid white;
+	
+}
+
+img22{
+	position:relative;
+	background-image:url(../images/corvette/taillight.jpg);
+	width: 770px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	clip-path: polygon(60% 0, 100% 0, 100% 100%, 5% 100%);
+}
+wrap13{
+	display:relative;
+	transform:skewX(-30deg) translateX(-1rem);
+	overflow:hidden;
+	height: calc(100% - 20vh);
+}
+
+img23{	
+	display:block;
+	background-image: url(../images/corvette/interior.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:calc(100% + 20rem);
+	transform:skewX(30deg);
+	object-fit: cover;
+	background-position: top;
+	height:100%;
+	margin-top:10%;
+
+}
+
+wrap14{
+	display:relative;
+	transform: skewX(-30deg) translateX(2rem);
+	overflow:hidden;
+	height:calc(100% - 30vh);
+}
+
+img24{
+	display:block;
+	background-image:url(../images/corvette/side.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	object-fit: cover;
+	margin-left:-10em;
+	height:100%;
+	transform: skewX(30deg);
+	width:calc(100% +20rem);		
+}
+img32{
+	position:relative;
+	background-image:url(../images/agera/taillight.jpg);
+	width: 770px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	clip-path: polygon(60% 0, 100% 0, 100% 100%, 5% 100%);
+}
+wrap33{
+	display:relative;
+	transform:skewX(-30deg) translateX(-1rem);
+	overflow:hidden;
+	height: calc(100% - 20vh);
+}
+
+img33{	
+	display:block;	
+	background-image: url(../images/agera/agera\ side.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:calc(100% + 20rem);
+	transform:skewX(30deg);
+	object-fit: cover;
+	background-position: top;
+	height:100%;
+	margin-top:10%;
+
+}
+
+wrap34{
+	display:relative;
+	transform: skewX(-30deg) translateX(2rem);
+	overflow:hidden;
+	height:calc(100% - 30vh);
+}
+
+img34{
+	display:block;
+	background-image:url(../images/agera/aegra\ action.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	object-fit: cover;
+	margin-left:-10em;
+	height:100%;
+	transform: skewX(30deg);
+	width:calc(100% +20rem);	
+}
+img42{
+	position:relative;
+	background-image:url(../images/mustang/taillight.jpg);
+	width: 770px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	clip-path: polygon(60% 0, 100% 0, 100% 100%, 5% 100%);
+}
+wrap43{
+	display:relative;
+	transform:skewX(-30deg) translateX(-1rem);
+	overflow:hidden;
+	height: calc(100% - 20vh);
+}
+
+img43{	
+	display:block;
+	background-image: url(../images/mustang/interior.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:calc(100% + 20rem);
+	transform:skewX(30deg);
+	object-fit: cover;
+	background-position: top;
+	height:100%;
+	margin-top:10%;
+
+}
+
+wrap44{
+	display:relative;
+	transform: skewX(-30deg) translateX(2rem);
+	overflow:hidden;
+	height:calc(100% - 30vh);
+}
+
+img44{
+	display:block;
+	background-image:url(../images/mustang/side.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	object-fit: cover;
+	margin-left:-10em;
+	height:100%;
+	transform: skewX(30deg);
+	width:calc(100% +20rem);	
+}
+
+wrap5{
+	display:relative;
+	transform: skewX(-30deg) translateY(-7rem) translateX(-10rem);
+	overflow:hidden;
+	height:70vh;
+	
+}
+img45{
+	display:block;
+	background-image: url(../images/mustang/side.jpg); 
+	background-size: cover;	
+	height:50vh;
+	transform: skewX(30deg) translateX(-1rem);
+	width:calc(100% + 8rem);
+}
+
+
+
+
+img72{
+	position:relative;
+	background-image:url(../images/urus/taillight.jpg);
+	width: 770px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	clip-path: polygon(60% 0, 100% 0, 100% 100%, 5% 100%);	
+}
+wrap73{
+	display:relative;
+	transform:skewX(-30deg) translateX(-1rem);
+	overflow:hidden;
+	height: calc(100% - 20vh);
+}
+
+img73{	
+	display:block;
+	background-image: url(../images/urus/interior.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:calc(100% + 20rem);
+	transform:skewX(30deg);
+	object-fit: cover;
+	background-position: top;
+	height:100%;
+	margin-top:10%;
+
+}
+
+wrap74{
+	display:relative;
+	transform: skewX(-30deg) translateX(2rem);
+	overflow:hidden;
+	height:calc(100% - 30vh);
+}
+
+img74{
+	display:block;
+	background-image:url(../images/urus/action.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	object-fit: cover;
+	margin-left:-10em;
+	height:100%;
+	transform: skewX(30deg);
+	width:calc(100% +20rem);	
+}
+
+wrap5{
+	display:relative;
+	transform: skewX(-30deg) translateY(-7rem) translateX(-10rem);
+	overflow:hidden;
+	height:70vh;
+	
+}
+img62{
+	position:relative;
+	background-image:url(../images/chiron/chiron\ tail.jpg);
+	width: 770px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	clip-path: polygon(60% 0, 100% 0, 100% 100%, 5% 100%);	
+}
+wrap63{
+	display:relative;
+	transform:skewX(-30deg) translateX(-1rem);
+	overflow:hidden;
+	height: calc(100% - 20vh);
+}
+
+img63{	
+	display:block;
+	background-image: url(../images/chiron/interior.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:calc(100% + 20rem);
+	transform:skewX(30deg);
+	object-fit: cover;
+	background-position: top;
+	height:100%;
+	margin-top:10%;
+
+}
+
+wrap64{
+	display:relative;
+	transform: skewX(-30deg) translateX(2rem);
+	overflow:hidden;
+	height:calc(100% - 30vh);
+}
+
+img64{
+	display:block;
+	background-image:url(../images/chiron/side.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	object-fit: cover;
+	margin-left:-10em;
+	height:100%;
+	transform: skewX(30deg);
+	width:calc(100% +20rem);	
+}
+
+wrap5{
+	display:relative;
+	transform: skewX(-30deg) translateY(-7rem) translateX(-10rem);
+	overflow:hidden;
+	height:70vh;
+	
+}
+
+img52{
+	position:relative;
+	background-image:url(../images/avendator/tail.jpg);
+	width: 770px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	clip-path: polygon(60% 0, 100% 0, 100% 100%, 5% 100%);
+}
+
+
+wrap53{
+	display:relative;
+	transform:skewX(-30deg) translateX(-1rem);
+	overflow:hidden;
+	height: calc(100% - 20vh);
+}
+
+img53{	
+	display:block;
+	background-image: url(../images/avendator/avandetor\ interior.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:calc(100% + 20rem);
+	transform:skewX(30deg);
+	object-fit: cover;
+	background-position: top;
+	height:100%;
+	margin-top:10%;
+
+}
+
+wrap54{
+	display:relative;
+	transform: skewX(-30deg) translateX(2rem);
+	overflow:hidden;
+	height:calc(100% - 30vh);
+}
+
+img54{
+	display:block;
+	background-image:url(../images/avendator/avendator\ still.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	object-fit: cover;
+	margin-left:-10em;
+	height:100%;
+	transform: skewX(30deg);
+	width:calc(100% +20rem);	
+}
+
+wrap5{
+	display:relative;
+	transform: skewX(-30deg) translateY(-7rem) translateX(-10rem);
+	overflow:hidden;
+	height:70vh;
+	
+}
+img55{
+	display:block;
+	background-image: url(../images/avendator/sidelook.jpg); 
+	background-size: cover;	
+	height:50vh;
+	transform: skewX(30deg) translateX(-1rem);
+	width:calc(100% + 8rem);
+}
+

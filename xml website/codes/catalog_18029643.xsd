@@ -1,0 +1,305 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Vehicle">
+		<xs:complexType>
+		    <xs:sequence>
+				<xs:element ref="Shop"/>
+				<xs:element ref="Header"/>
+				<xs:element ref="Cars"/>
+				<xs:element ref="Footer"/>
+		    </xs:sequence>
+		</xs:complexType>
+    </xs:element>
+	
+	<xs:element name="Shop">
+		<xs:complexType>
+		    <xs:sequence>
+				<xs:element ref="rowgap"/>
+		    </xs:sequence>
+		</xs:complexType>
+    </xs:element>
+	 <xs:element name="rowgap" type="xs:string"/>
+	 
+	<xs:element name="Header">
+		<xs:complexType>
+		    <xs:sequence>
+				<xs:element ref="Logo"/>
+				<xs:element ref="Name"/>
+		    </xs:sequence>
+		</xs:complexType>
+    </xs:element>
+	 <xs:element name="Logo" type="xs:string"/>
+    <xs:element name="Name" type="xs:string"/>
+	
+   <xs:element name="Cars">
+		<xs:complexType>
+			 <xs:sequence>
+				<xs:element ref="Car" maxOccurs="unbounded" minOccurs="0"/>
+			 </xs:sequence>
+		</xs:complexType>
+    </xs:element>
+	
+	 <xs:element name="Car">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="civic"/>
+				<xs:element ref="row1"/>
+				<xs:element ref="row2"/>
+				<xs:element ref="img15" minOccurs="0"/>
+				<xs:element ref="img25" minOccurs="0"/>
+				<xs:element ref="img35" minOccurs="0"/>
+				<xs:element ref="Price" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+   </xs:element>
+   <!--civic-->
+   <xs:element name="civic">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="img1" minOccurs="0"/>
+				<xs:element ref="img2" minOccurs="0"/>
+				<xs:element ref="img3" minOccurs="0"/>
+				<xs:element ref="img4" minOccurs="0"/>
+				<xs:element ref="img5" minOccurs="0"/>
+				<xs:element ref="img6" minOccurs="0"/>
+				<xs:element ref="img7" minOccurs="0"/>
+				<xs:element ref="carmodel"/>
+				<xs:element ref="Description"/>
+			</xs:sequence>
+		</xs:complexType>
+    </xs:element>
+	<xs:element name="img1" type="xs:string"/>
+	 <xs:element name="img2" type="xs:string"/>
+	 <xs:element name="img3" type="xs:string"/>
+     <xs:element name="img4" type="xs:string"/>
+     <xs:element name="img5" type="xs:string"/> 
+     <xs:element name="img6" type="xs:string"/>
+     <xs:element name="img7" type="xs:string"/>
+    <xs:element name="carmodel" type="xs:string"/>
+    <xs:element name="Description">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="heading"/>
+				<xs:element ref="p"/>
+			</xs:sequence>
+		</xs:complexType>
+     </xs:element>
+	<xs:element name="heading" type="xs:string"/>
+    <xs:element name="p" type="xs:string"/>
+	<!--row1-->
+	<xs:element name="row1">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="spec1"/>
+				<xs:element ref="spec2"/>
+				<xs:element ref="img12" minOccurs="0"/>
+				<xs:element ref="img22" minOccurs="0"/>
+				<xs:element ref="img32" minOccurs="0"/>
+				<xs:element ref="img42" minOccurs="0"/>
+				<xs:element ref="img52" minOccurs="0"/>
+				<xs:element ref="img62" minOccurs="0"/>
+				<xs:element ref="img72" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<!---element in row1-->
+	<xs:element name="spec1">
+		<xs:complexType>
+			 <xs:sequence>
+				<xs:element ref="specs"/>
+				<xs:element ref="Brand"/>
+				<xs:element ref="Type"/>
+				<xs:element ref="seatCapacity"/>
+				<xs:element ref="carColor"/>
+				<xs:element ref="weight"/>
+				<xs:element ref="dimensions"/>
+				<xs:element ref="driveType"/>
+				<xs:element ref="displacement"/>
+				<xs:element ref="engineConfiguration"/>
+				<xs:element ref="boost"/>
+			 </xs:sequence>
+		</xs:complexType>
+    </xs:element>
+	 <xs:element name="specs" type="xs:string"/>
+	 <xs:element name="Brand">
+		<xs:complexType>
+		  <xs:simpleContent>
+			<xs:extension base="xs:string">
+			  <xs:attribute type="xs:int" name="modelnum" use="optional"/>
+			</xs:extension>
+		  </xs:simpleContent>
+		</xs:complexType>
+	 </xs:element>
+	<xs:element name="Type" type="xs:string"/>
+	<xs:element name="seatCapacity" type="xs:string"/>
+	<xs:element name="carColor" type="xs:string"/>
+	<xs:element name="weight" type="xs:string"/>
+	<xs:element name="dimensions">
+		<xs:complexType>
+		    <xs:simpleContent>
+				<xs:extension base="xs:string">
+				  <xs:attribute type="xs:string" name="unit" use="optional"/>
+				</xs:extension>
+		    </xs:simpleContent>
+		</xs:complexType>
+	  </xs:element>
+	  <xs:element name="driveType" type="xs:string"/>
+	  <xs:element name="displacement" type="xs:string"/>
+	  <xs:element name="engineConfiguration" type="xs:string"/>
+	  <xs:element name="boost">
+		<xs:complexType>
+		    <xs:simpleContent>
+				<xs:extension base="xs:string">
+				   <xs:attribute type="xs:string" name="pressureunit" use="optional"/>
+				</xs:extension>
+		     </xs:simpleContent>
+		</xs:complexType>
+	 </xs:element>
+    <xs:element name="spec2">
+		<xs:complexType>
+			 <xs:sequence>
+				<xs:element ref="fuelCapacity"/>
+				<xs:element ref="fuelEconomy"/>
+				<xs:element ref="fuelType"/>
+				<xs:element ref="transmission"/>
+				<xs:element ref="suspension"/>
+				<xs:element ref="brakeType"/>
+				<xs:element ref="antiLockBraking"/>
+				<xs:element ref="WheelSize"/>
+				<xs:element ref="carPrice"/>
+				<xs:element ref="quantity"/>
+			 </xs:sequence>
+		</xs:complexType>
+    </xs:element>
+	 <xs:element name="fuelCapacity" type="xs:string"/>
+	<xs:element name="fuelEconomy">
+		<xs:complexType>
+		     <xs:simpleContent>
+				<xs:extension base="xs:string">
+				  <xs:attribute type="xs:string" name="value" use="optional"/>
+				</xs:extension>
+		    </xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="fuelType" type="xs:string"/>
+	<xs:element name="transmission" type="xs:string"/>
+	<xs:element name="suspension" type="xs:string"/>
+	<xs:element name="brakeType">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+				  <xs:attribute type="xs:string" name="breakalloy" use="optional"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	  </xs:element>
+	<xs:element name="antiLockBraking" type="xs:string"/>
+	<xs:element name="WheelSize">
+		<xs:complexType>
+		    <xs:simpleContent>
+				 <xs:extension base="xs:string">
+				     <xs:attribute type="xs:string" name="measurement" use="optional"/>
+				 </xs:extension>
+		     </xs:simpleContent>
+		</xs:complexType>
+	  </xs:element>
+	<xs:element name="carPrice">
+		<xs:complexType>
+		  <xs:simpleContent>
+			<xs:extension base="xs:string">
+			  <xs:attribute type="xs:string" name="currency" use="optional"/>
+			</xs:extension>
+		  </xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="quantity" type="xs:string"/>
+	<xs:element name="img12" type="xs:string"/>
+	<xs:element name="img22" type="xs:string"/>
+    <xs:element name="img32" type="xs:string"/>
+	<xs:element name="img42" type="xs:string"/>
+	<xs:element name="img52" type="xs:string"/>
+	<xs:element name="img62" type="xs:string"/>
+	<xs:element name="img72" type="xs:string"/>
+	<!-- row2-->
+	<xs:element name="row2">
+		 <xs:complexType>
+			<xs:sequence>
+				<xs:element ref="wrap13"/>
+				<xs:element ref="wrap14"/>
+			</xs:sequence>
+		</xs:complexType>
+    </xs:element>
+	<!--elements in row2-->
+	<!--elements in wrap13-->
+	<xs:element name="wrap13">
+		<xs:complexType>
+			 <xs:sequence>
+				<xs:element ref="img13" minOccurs="0"/>
+				<xs:element ref="img23" minOccurs="0"/>
+				<xs:element ref="img33" minOccurs="0"/>
+				<xs:element ref="img43" minOccurs="0"/>
+				<xs:element ref="img53" minOccurs="0"/>
+				<xs:element ref="img63" minOccurs="0"/>
+				<xs:element ref="img73" minOccurs="0"/>
+			 </xs:sequence>
+		</xs:complexType>
+    </xs:element>
+	<xs:element name="img13" type="xs:string"/>
+	 <xs:element name="img23" type="xs:string"/>
+    <xs:element name="img33" type="xs:string"/>
+	<xs:element name="img43" type="xs:string"/>
+	<xs:element name="img53" type="xs:string"/>
+	<xs:element name="img63" type="xs:string"/>
+	<xs:element name="img73" type="xs:string"/>
+		<!--elements in wrap14-->
+    <xs:element name="wrap14">
+		<xs:complexType>
+			 <xs:sequence>
+				<xs:element ref="img14" minOccurs="0"/>
+				<xs:element ref="img24" minOccurs="0"/>
+				<xs:element ref="img34" minOccurs="0"/>
+				<xs:element ref="img44" minOccurs="0"/>
+				<xs:element ref="img54" minOccurs="0"/>
+				<xs:element ref="img64" minOccurs="0"/>
+				<xs:element ref="img74" minOccurs="0"/>
+			 </xs:sequence>
+		</xs:complexType>
+    </xs:element>
+	<!--elements in wrap14-->
+	 <xs:element name="img14" type="xs:string"/>
+	 <xs:element name="img24" type="xs:string"/>
+	 <xs:element name="img34" type="xs:string"/>
+	 <xs:element name="img44" type="xs:string"/>
+	 <xs:element name="img54" type="xs:string"/>
+	 <xs:element name="img64" type="xs:string"/>
+	 <xs:element name="img74" type="xs:string"/>
+
+	<xs:element name="img15" type="xs:string"/>
+    <xs:element name="img25" type="xs:string"/>
+	<xs:element name="img35" type="xs:string"/>
+    <xs:element name="Price" type="xs:string"/>
+
+  <!--footer-->
+    <xs:element name="Footer">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Logo"/>
+				<xs:element ref="container"/>
+				<xs:element ref="Follow"/>
+			</xs:sequence>
+		</xs:complexType>
+    </xs:element>
+	<xs:element name="container">
+		<xs:complexType>
+			 <xs:sequence>
+				<xs:element ref="Location"/>
+				<xs:element ref="Number"/>
+				<xs:element ref="Website"/>
+			 </xs:sequence>
+		</xs:complexType>
+	 </xs:element>
+	<xs:element name="Location" type="xs:string"/>
+    <xs:element name="Number" type="xs:string"/>
+    <xs:element name="Website" type="xs:string"/>
+    <xs:element name="Follow" type="xs:string"/>
+</xs:schema>
